@@ -1,0 +1,31 @@
+.menu {
+  /* add correct code to place the menu correctly.*/
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+body {
+  background-color: whitesmoke;
+}
+.grid {
+  /* add correct code to place the grid elements 
+  one beside the other equally.   */
+display: flex;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+}
+
+.grid img {
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+.languages {
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px;
+
+  width: 200px;
+  font-family: sans-serif;
+}
